@@ -1,5 +1,4 @@
 ﻿using Domain.Models;
-using Service.Datas;
 using Service.Services.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -20,8 +19,8 @@ namespace Service.Services
                 new Contact{Id = 1, Name = "Ilham", Surname = "Abasli", PhoneNumber = "111111"},
                 new Contact{Id = 2, Name = "Semed", Surname = "Huseynov", PhoneNumber = "222222"},
                 new Contact{Id = 3, Name = "Aqsin", Surname = "Veliyev", PhoneNumber = "333333"},
-                new Contact{Id = 4, Name = "Tunzale", Surname = "Memmedova", PhoneNumber = "444444"},
-                new Contact{Id = 5, Name = "Arzu", Surname = "Kerimli", PhoneNumber = "555555"},
+                //new Contact{Id = 4, Name = "Tunzale", Surname = "Memmedova", PhoneNumber = "444444"},
+                //new Contact{Id = 5, Name = "Arzu", Surname = "Kerimli", PhoneNumber = "555555"},
 
             };
         }
